@@ -1,0 +1,345 @@
+0000355e __loc_pri_start G-code sliced for a different level. Continue?
+0000358f _ZZ17gcode_level_checkjE3__c_0 G-code sliced for a different level. Please re-slice the model again. Print cancelled.
+000035e8 _ZZ16fw_version_checkPKcE3__c_0 G-code sliced for a newer firmware. Please update the firmware. Print cancelled.
+0000363b _ZZ16fw_version_checkPKcE3__c G-code sliced for a newer firmware. Continue?
+0000366b MSG_GCODE_DIFF_PRINTER_CONTINUE G-code sliced for a different printer type. Continue?
+000036a3 MSG_GCODE_DIFF_PRINTER_CANCELLED G-code sliced for a different printer type. Please re-slice the model again. Print cancelled.
+00003703 _ZZ18M600_wait_for_userfE3__c Press the knob to preheat nozzle and continue.
+00003734 MSG_PRESS_TO_UNLOAD Please press the knob to unload filament
+0000375f _ZZ22mmu_M600_wait_and_beepvE3__c Remove old filament and press the knob to start loading new filament.
+000037a7 _ZZ17lcd_wait_interactvE3__c_0 and press the knob
+000037bc _ZZ17lcd_wait_interactvE3__c Insert filament
+000037ce _ZZ11lcd_alrightvE3__c_1 Color not correct
+000037e2 _ZZ11lcd_alrightvE3__c_0 Filament not loaded
+000037f8 _ZZ11lcd_alrightvE3__c Changed correctly?
+0000380d _ZZ17lcd_loading_colorvE3__c Loading color
+0000381d _ZZ18lcd_change_successvE3__c Change success!
+0000382f _ZZL10gcode_M600bfffffE3__c_0 Please open idler and remove filament manually.
+00003861 _ZZL10gcode_M600bfffffE3__c Was filament unload successful?
+00003883 _ZZ36show_upgrade_dialog_if_version_newerPKcE3__c_1 Please upgrade.
+00003895 _ZZ36show_upgrade_dialog_if_version_newerPKcE3__c New firmware version available:
+000038b7 _ZZ18lcd_wait_for_pindafE3__c Waiting for PINDA probe cooling
+000038d9 _ZZ17crashdet_detectedhE3__c_0 Crash detected. Resume print?
+000038f9 MSG_CRASH_DETECTED Crash detected.
+0000390b MSG_CHOOSE_EXTRUDER Choose extruder:
+0000391e MSG_CHOOSE_FILAMENT Choose filament:
+00003931 _ZZ16process_commandsvE3__c_59 No move.
+0000393c _ZZ16process_commandsvE3__c_49 Some problem encountered, Z-leveling enforced ...
+00003970 _ZZ16process_commandsvE3__c_40 Stable ambient temperature 21-26C is needed a rigid stand is required.
+000039b9 _ZZ16process_commandsvE3__c_39 Please run XYZ calibration first.
+000039dd _ZZ16process_commandsvE3__c_2 Wait for user...
+000039f0 _ZZL31check_if_fw_is_on_right_printervE3__c MK3 firmware detected on MK3S printer
+00003a18 WELCOME_MSG Prusa i3 MK3 OK.
+00003a2b MSG_RECOVER_PRINT Blackout occurred. Recover print?
+00003a4f _ZZ5setupE3__c_18 Selftest will be run to calibrate accurate sensorless rehoming.
+00003a91 MSG_FOLLOW_Z_CALIBRATION_FLOW There is still a need to make Z calibration. Please follow the manual, chapter First steps, section Calibration flow.
+00003b09 MSG_FOLLOW_CALIBRATION_FLOW Printer has not been calibrated yet. Please follow the manual, chapter First steps, section Calibration flow.
+00003b79 _ZZ5setupE3__c_17 Old settings found. Default PID, Esteps etc. will be set.
+00003bb5 _ZZ5setupE3__c_16 Warning: both printer type and motherboard type changed.
+00003bf0 _ZZ5setupE3__c_15 Warning: printer type changed.
+00003c11 _ZZ5setupE3__c_14 Warning: motherboard type changed.
+00003c36 _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_8 XYZ calibration all right. Skew will be corrected automatically.
+00003c79 _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_7 XYZ calibration all right. X/Y axes are slightly skewed. Good job!
+00003cbe _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_6 XYZ calibration ok. X/Y axes are perpendicular. Congratulations!
+00003d01 _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_4 XYZ calibration compromised. Right front calibration point not reachable.
+00003d4d _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_3 XYZ calibration compromised. Front calibration points not reachable.
+00003d94 _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_1 XYZ calibration failed. Right front calibration point not reachable.
+00003ddb _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c_0 XYZ calibration failed. Front calibration points not reachable.
+00003e1d MSG_BED_SKEW_OFFSET_DETECTION_FITTING_FAILED XYZ calibration failed. Please consult the manual.
+00003e52 _ZZ31lcd_bed_calibration_show_result32BedSkewOffsetDetectionResultTypehE3__c XYZ calibration failed. Bed calibration point was not found.
+00003e91 MSG_PLACE_STEEL_SHEET Please place steel sheet on heatbed.
+00003eb8 MSG_BABYSTEP_Z_NOT_SET Distance between tip of the nozzle and the bed surface has not been set yet. Please follow the manual, chapter First steps, section First layer calibration.
+00003f57 MSG_PAPER Place a sheet of paper under the nozzle during the calibration of first 4 points. If the nozzle catches the paper, power off the printer immediately.
+00003fef MSG_REMOVE_STEEL_SHEET Please remove steel sheet from heatbed.
+00004019 MSG_STEEL_SHEET_CHECK Is steel sheet on heatbed?
+00004036 MSG_FIND_BED_OFFSET_AND_SKEW_LINE2  of 4
+0000403e MSG_FIND_BED_OFFSET_AND_SKEW_LINE1 Searching bed calibration point
+00004060 MSG_MEASURE_BED_REFERENCE_HEIGHT_LINE2  of 9
+00004068 MSG_MEASURE_BED_REFERENCE_HEIGHT_LINE1 Measuring reference height of calibration point
+0000409a MSG_CONFIRM_NOZZLE_CLEAN Please clean the nozzle for calibration. Click when done.
+000040d6 MSG_AUTO_HOME Auto home
+000040e2 _ZZ13recover_printhE3__c Recovering print    
+000040f9 MSG_PLEASE_WAIT Please wait
+00004107 MSG_BED_LEVELING_FAILED_POINT_LOW Bed leveling failed. Sensor didnt trigger. Debris on nozzle? Waiting for reset.
+00004159 _ZZ16mmu_show_warningvE3__c_0 Please update firmware in your MMU2. Waiting for reset.
+00004193 _ZZN10CardReader7presortEvE3__c_0 Sorting files
+000041a3 _ZZN10CardReader7presortEvE3__c Some files will not be sorted. Max. No. of files in 1 folder for sorting is 100.
+000041f6 MSG_WIZARD_QUIT You can always resume the Wizard from Calibration -> Wizard.
+00004235 MSG_WIZARD_CALIBRATION_FAILED Please check our handbook and fix the problem. Then resume the Wizard by rebooting the printer.
+00004297 MSG_WIZARD_DONE All is done. Happy printing!
+000042b6 _ZZ10lcd_wizard8WizStateE3__c_9 If you have additional steel sheets, calibrate their presets in Settings - HW Setup - Steel sheets.
+0000431c _ZZ10lcd_wizard8WizStateE3__c_8 Please clean heatbed and then press the knob.
+0000434c _ZZ10lcd_wizard8WizStateE3__c_7 Do you want to repeat last step to readjust distance between nozzle and heatbed?
+0000439f _ZZ10lcd_wizard8WizStateE3__c_6 Select nozzle preheat temperature which matches your material.
+000043e0 MSG_FILAMENT_LOADED Is filament loaded?
+000043f6 _ZZ10lcd_wizard8WizStateE3__c_5 Now I will preheat nozzle for PLA.
+0000441b _ZZ10lcd_wizard8WizStateE3__c_4 I will run z calibration now.
+0000443b _ZZ10lcd_wizard8WizStateE3__c_3 Now remove the test print from steel sheet.
+00004469 _ZZ10lcd_wizard8WizStateE3__c_2 Please remove shipping helpers first.
+00004491 _ZZ10lcd_wizard8WizStateE3__c_1 I will run xyz calibration now. It will take approx. 12 mins.
+000044d1 _ZZ10lcd_wizard8WizStateE3__c_0 First, I will run the selftest to check most common assembly problems.
+0000451a MSG_WIZARD_WELCOME Hi, I am your Original Prusa i3 printer. Would you like me to guide you through the setup process?
+0000457f MSG_WIZARD_WELCOME_SHIPPING Hi, I am your Original Prusa i3 printer. I will guide you through a short setup process, in which the Z-axis will be calibrated. Then, you will be ready to print.
+00004624 _ZZ38lcd_settings_linearity_correction_menuvE3__c_2 E-correct:
+00004631 _ZZ38lcd_settings_linearity_correction_menuvE3__c_1 Z-correct:
+0000463e _ZZ38lcd_settings_linearity_correction_menuvE3__c_0 Y-correct:
+0000464b _ZZ38lcd_settings_linearity_correction_menuvE3__c X-correct:
+00004658 MSG_AUTO_DEPLETE SpoolJoin
+00004664 MSG_CUTTER Cutter
+0000466d MSG_FIRMWARE Firmware
+00004678 MSG_MODEL Model
+00004680 MSG_STRICT Strict
+00004689 MSG_WARN Warn
+00004690 _ZZ17lcd_hw_setup_menuvE3__c Checks
+00004699 MSG_NOZZLE_DIAMETER Nozzle d.
+000046a5 MSG_NONE None
+000046ac MSG_SORT_ALPHA Alphabet
+000046b7 MSG_SORT Sort
+000046be MSG_SORT_TIME Time
+000046c5 MSG_SD_CARD SD card
+000046cf MSG_TOSHIBA_FLASH_AIR_COMPATIBILITY FlashAir
+000046da _ZZL17lcd_settings_menuvE3__c_4 Select language
+000046ec MSG_RPI_PORT RPi port
+000046f7 MSG_TEMP_CALIBRATION Temp. cal.
+00004704 _ZZL17lcd_settings_menuvE3__c_3 Lin. correction
+00004716 MSG_HW_SETUP HW Setup
+00004721 MSG_FSENSOR_AUTOLOAD F. autoload
+0000472f _ZZL17lcd_settings_menuvE3__c_1 Disable steppers
+00004742 _ZZL17lcd_settings_menuvE3__c_0 Move axis
+0000474e _ZZL17lcd_settings_menuvE3__c Temperature
+0000475c MSG_RESUMING_PRINT Resuming print
+0000476d _ZZ23lcdui_print_status_linevE3__c_4 PINDA Heating
+0000477d _ZZ23lcdui_print_status_linevE3__c_1 Calibration done
+00004790 MSG_CALIBRATE_Z_AUTO Calibrating Z
+000047a0 MSG_BED_DONE Bed done
+000047ab MSG_BED_HEATING Bed Heating
+000047b9 MSG_HEATING_COMPLETE Heating done.
+000047c9 MSG_HEATING Heating
+000047d3 MSG_M117_V2_CALIBRATION M117 First layer cal.
+000047eb _ZZ12lcd_commandsvE3__c_13 PID cal. finished
+000047ff _ZZ12lcd_commandsvE3__c_12 PID cal.           
+00004815 _ZZ12lcd_commandsvE3__c Print paused
+00004824 _ZZ22lcd_menu_extruder_infovE3__c_0 Print FAN
+00004830 _ZZ22lcd_menu_extruder_infovE3__c Nozzle FAN
+0000483d MSG_MMU_FAILS MMU fails
+00004849 MSG_MMU_LOAD_FAILS MMU load fails
+0000485a _ZZL30lcd_menu_fails_stats_mmu_totalvE3__c_0 MMU power fails
+0000486c MSG_TOTAL_FAILURES Total failures
+0000487d MSG_FIL_RUNOUTS Fil. runouts
+0000488c MSG_LAST_PRINT_FAILURES Last print failures
+000048a2 MSG_POWER_FAILURES Power failures
+000048b3 _ZZL26lcd_menu_fails_stats_printvE3__c_0 Runouts
+000048bd MSG_CRASH Crash
+000048c5 MSG_TOTAL Total
+000048cd MSG_LAST_PRINT Last print
+000048da _ZZL21lcd_menu_temperaturesvE3__c_0 PINDA
+000048e2 _ZZL21lcd_menu_temperaturesvE3__c Ambient
+000048ec _ZZL16lcd_support_menuvE3__c_25 Voltages
+000048f7 _ZZL16lcd_support_menuvE3__c_24 Temperatures
+00004906 MSG_BELT_STATUS Belt status
+00004914 _ZZL16lcd_support_menuvE3__c_23 Sensor info
+00004922 _ZZL16lcd_support_menuvE3__c_22 Extruder info
+00004932 _ZZL16lcd_support_menuvE3__c_21 XYZ cal. details
+00004945 _ZZL16lcd_support_menuvE3__c_13 unknown
+0000494f _ZZL16lcd_support_menuvE3__c_10 MMU2 connected
+00004960 _ZZL16lcd_support_menuvE3__c_8 Date:
+00004968 _ZZL16lcd_support_menuvE3__c_4 howto.prusa3d.com
+0000497c _ZZL16lcd_support_menuvE3__c_3 forum.prusa3d.com
+00004990 _ZZL16lcd_support_menuvE3__c_2 prusa3d.com
+0000499e _ZZL15mFilamentPromptvE3__c_1 to unload filament
+000049b3 _ZZL15mFilamentPromptvE3__c_0 to load filament
+000049c6 _ZZL15mFilamentPromptvE3__c Press the knob
+000049d7 _ZZ13mFilamentItemjjE3__c_5 >Cancel
+000049e1 _ZZ13mFilamentItemjjE3__c_4 Preheating to cut
+000049f5 _ZZ13mFilamentItemjjE3__c_3 Preheating to eject
+00004a0b _ZZ13mFilamentItemjjE3__c_2 Preheating to unload
+00004a22 _ZZ13mFilamentItemjjE3__c_1 Preheating to load
+00004a37 MSG_FINISHING_MOVEMENTS Finishing movements
+00004a4d MSG_BRIGHTNESS Brightness
+00004a5a MSG_SOUND_BLIND Assist
+00004a63 MSG_SILENT Silent
+00004a6c MSG_SOUND_ONCE Once
+00004a73 MSG_SOUND Sound
+00004a7b MSG_SOUND_LOUD Loud
+00004a82 MSG_MMU_MODE MMU Mode
+00004a8d MSG_CRASHDETECT Crash det.
+00004a9a MSG_STEALTH Stealth
+00004aa4 MSG_NORMAL Normal
+00004aad MSG_FANS_CHECK Fans check
+00004aba MSG_FSENSOR Fil. sensor
+00004ac8 MSG_FILAMENTCHANGE Change filament
+00004ada _ZZL13lcd_tune_menuvE3__c_0 Flow
+00004ae1 _ZZL13lcd_tune_menuvE3__c Speed
+00004ae9 MSG_MAGNETS_COMP Magnets comp.
+00004af9 MSG_NA N/A
+00004aff MSG_OFF Off
+00004b05 MSG_ON On
+00004b0a MSG_Z_PROBE_NR Z-probe nr.
+00004b18 MSG_MESH Mesh
+00004b1f MSG_TIMEOUT Timeout
+00004b29 MSG_MODE Mode
+00004b30 MSG_AUTO Auto
+00004b37 MSG_DIM Dim
+00004b3d MSG_BRIGHT Bright
+00004b46 MSG_BL_LOW Level Dimmed
+00004b55 MSG_BL_HIGH Level Bright
+00004b64 MSG_FAN_SPEED Fan speed
+00004b70 MSG_BED Bed
+00004b76 MSG_NOZZLE Nozzle
+00004b7f MSG_SETTINGS Settings
+00004b8a MSG_PRINT_ABORTED Print aborted
+00004b9a MSG_STOP_PRINT Stop print
+00004ba7 _ZZL10check_filePKcE3__c Checking file
+00004bb7 _ZZL18menu_action_sdfilePKcE3__c_0 File incomplete. Continue anyway?
+00004bdb MSG_REFRESH Refresh
+00004be6 MSG_MAIN Main
+00004bed _ZZ11stack_errorvE3__c Error - static memory has been overwritten
+00004c1a _ZZ23menu_lcd_lcdupdate_funcvE3__c Card removed
+00004c29 MSG_BACK Back
+00004c30 _ZZ21nozzle_diameter_checkjE3__c_0 Printer nozzle diameter differs from the G-code. Please check the value in settings. Print cancelled.
+00004c98 _ZZ21nozzle_diameter_checkjE3__c Printer nozzle diameter differs from the G-code. Continue?
+00004cd5 _ZZ14lcd_adjust_bedvE3__c_2 Rear side [um]
+00004ce6 _ZZ14lcd_adjust_bedvE3__c_1 Front side[um]
+00004cf7 _ZZ14lcd_adjust_bedvE3__c_0 Right side[um]
+00004d08 _ZZ14lcd_adjust_bedvE3__c Left side [um]
+00004d19 _ZZ12pid_extrudervE3__c Set temperature:
+00004d2c _ZZ24lcd_temp_cal_show_resultbE3__c_1 Temperature calibration failed
+00004d4d MSG_TEMP_CALIBRATION_DONE Temperature calibration is finished and active. Temp. calibration can be disabled in menu Settings->Temp. cal.
+00004dbe _ZZL22lcd_show_sensors_statevE3__c_1 Fil. sensor
+00004dcc _ZZL22lcd_show_sensors_statevE3__c_0 FINDA
+00004dd4 _ZZL22lcd_show_sensors_statevE3__c PINDA
+00004ddc _ZZL20lcd_calibration_menuvE3__c_8 Temp. calibration
+00004df0 _ZZL20lcd_calibration_menuvE3__c_6 Reset XYZ calibr.
+00004e04 _ZZL20lcd_calibration_menuvE3__c_5 PID calibration
+00004e16 _ZZL20lcd_calibration_menuvE3__c_4 Bed level correct
+00004e2a MSG_MESH_BED_LEVELING Mesh Bed Leveling
+00004e3e MSG_HOMEYZ Calibrate Z
+00004e4c _ZZL20lcd_calibration_menuvE3__c_3 Calibrate XYZ
+00004e5c _ZZL20lcd_calibration_menuvE3__c_2 Selftest         
+00004e70 _ZZL20lcd_calibration_menuvE3__c_1 Belt test        
+00004e84 _ZZL20lcd_calibration_menuvE3__c Wizard
+00004e8d _ZZL13fil_load_menuvE3__c Load all
+00004e98 MSG_PULL_OUT_FILAMENT Please pull out filament immediately
+00004ebf MSG_UNLOADING_FILAMENT Unloading filament
+00004ed4 MSG_RESET Reset
+00004edc _ZZL14lcd_sheet_menuvE3__c_0 Rename
+00004ee5 MSG_V2_CALIBRATION First layer cal.
+00004ef8 _ZZL14lcd_sheet_menuvE3__c Select
+00004f01 MSG_STEEL_SHEETS Steel sheets
+00004f10 _ZZL13lcd_main_menuvE3__c_7 Support
+00004f1a _ZZL13lcd_main_menuvE3__c_6 Fail stats MMU
+00004f2b _ZZL13lcd_main_menuvE3__c_5 Fail stats
+00004f38 _ZZL13lcd_main_menuvE3__c_4 Statistics  
+00004f47 MSG_MENU_CALIBRATION Calibration
+00004f55 _ZZL13lcd_main_menuvE3__c_3 AutoLoad filament
+00004f69 MSG_CUT_FILAMENT Cut filament
+00004f78 MSG_EJECT_FILAMENT Eject filament
+00004f89 MSG_UNLOAD_FILAMENT Unload filament
+00004f9b _ZZL13lcd_main_menuvE3__c_2 Load to nozzle
+00004fac MSG_LOAD_FILAMENT Load filament
+00004fbc _ZZL13lcd_main_menuvE3__c_1 No SD card
+00004fc9 MSG_CARD_MENU Print from SD
+00004fd9 MSG_RESUME_PRINT Resume print
+00004fe8 MSG_PAUSE_PRINT Pause print
+00004ff6 _ZZL13lcd_main_menuvE3__c_0 Preheat
+00005000 _ZZL13lcd_main_menuvE3__c Tune
+00005007 MSG_BABYSTEP_Z Live adjust Z
+00005017 MSG_WATCH Info screen
+00005025 _ZZ22lcd_wait_for_cool_downvE3__c Waiting for nozzle and bed cooling
+0000504a _ZZ12lcd_selftestvE3__c_1 Self test OK
+00005059 _ZZ12lcd_selftestvE3__c Self test start  
+0000506d _ZZL19lcd_selftest_screen10TestScreeniibiE3__c_5 Print fan:
+0000507a _ZZL19lcd_selftest_screen10TestScreeniibiE3__c_4 Extruder fan:
+0000508a _ZZL19lcd_selftest_screen10TestScreeniibiE3__c_3 Calibrating home
+0000509d _ZZL19lcd_selftest_screen10TestScreeniibiE3__c_2 All correct      
+000050b1 MSG_SELFTEST_CHECK_FSENSOR Checking sensors 
+000050c5 _ZZL19lcd_selftest_screen10TestScreeniibiE3__c_1 Checking hotend  
+000050d9 MSG_SELFTEST_CHECK_BED Checking bed     
+000050ed _ZZL19lcd_selftest_screen10TestScreeniibiE3__c_0 Checking Z axis
+000050ff MSG_CHECKING_Y Checking Y axis
+00005111 MSG_CHECKING_X Checking X axis
+00005123 _ZZL19lcd_selftest_screen10TestScreeniibiE3__c Checking endstops
+00005137 MSG_STOPPED STOPPED. 
+00005143 _ZZ15manage_responsebbhE3__c_7 MMU OK. Resuming...
+00005159 _ZZ15manage_responsebbhE3__c_6 MMU OK. Resuming position...
+00005178 _ZZ15manage_responsebbhE3__c_5 MMU OK. Resuming temperature...
+0000519a _ZZ15manage_responsebbhE3__c_2 Fix the issue and then press button on MMU unit.
+000051cd _ZZ15manage_responsebbhE3__c_1 Press the knob to resume nozzle temperature.
+000051fc _ZZ15manage_responsebbhE3__c_0 MMU needs user attention.
+00005218 _ZZ16mmu_cut_filamenthE3__c Cutting filament
+0000522b _ZZ18mmu_eject_filamenthbE3__c_0 Please remove filament and then press the knob.
+0000525d _ZZ18mmu_eject_filamenthbE3__c Ejecting filament
+00005271 _ZZ20mmu_continue_loadingbE3__c MMU load failed     
+00005288 MSG_SHEET Sheet
+00005290 MSG_YES Yes
+00005296 MSG_NO No
+0000529b MSG_SELFTEST_FAN_NO Not spinning
+000052aa MSG_SELFTEST_FAN_YES Spinning
+000052b5 MSG_SELFTEST_FAN Fan test
+000052c0 MSG_SELFTEST_FAILED Selftest failed  
+000052d4 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_13 %s level expected
+000052e8 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_12 False triggering
+000052fb MSG_SELFTEST_FILAMENT_SENSOR Filament sensor
+0000530d _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_11 Swapped
+00005317 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_10 Front/left fans
+00005329 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_9 Axis
+00005330 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_8 Axis length
+0000533e _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_7 Loose pulley
+0000534d MSG_SELFTEST_EXTRUDER_FAN Left hotend fan?
+00005360 MSG_SELFTEST_COOLING_FAN Front print fan?
+00005373 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_6 Endstop not hit
+00005385 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_5 Endstop
+0000538f MSG_SELFTEST_MOTOR Motor
+00005397 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_4 Endstops
+000053a2 MSG_SELFTEST_WIRINGERROR Wiring error
+000053b1 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_3 Bed / Heater
+000053c0 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_2 Not connected
+000053d0 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_1 Heater/Thermistor
+000053e4 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c_0 Please check :
+000053f5 _ZZL18lcd_selftest_error9TestErrorPKcS1_E3__c Selftest error !
+00005408 MSG_EXTRUDER Extruder
+00005413 _ZZL18lcd_move_menu_axisvE3__c_1 Move Z
+0000541c _ZZL18lcd_move_menu_axisvE3__c_0 Move Y
+00005425 _ZZL18lcd_move_menu_axisvE3__c Move X
+0000542e _ZZL19lcd_crash_mode_infovE3__c Crash detection can\x0abe turned on only in\x0aNormal mode
+00005465 _ZZL20lcd_crash_mode_info2vE3__c WARNING:\x0aCrash detection\x0adisabled in\x0aStealth mode
+00005499 _ZZL26lcd_filament_autoload_infovE3__c Autoloading filament available only when filament sensor is turned on...
+000054e4 _ZZL16lcd_fsensor_failvE3__c ERROR: Filament sensor is not responding, please check connection.
+00005529 _ZZL19lcd_silent_mode_setvE3__c Mode change in progress ...
+00005547 _ZZ12menu_setlanghE3__c Copy selected language?
+00005561 _ZZL27lcd_community_language_menuvE3__c Select language
+00005573 MSG_COMMUNITY_MADE Community made
+00005584 _ZZ26lcd_pinda_calibration_menuvE3__c Calibrate
+00005590 _ZZ33lcd_first_layer_calibration_resetvE3__c Sheet %.7s\x0aZ offset: %+1.3f mm\x0a%cContinue\x0a%cStart from zero
+000055ce _ZZL18lcd_v2_calibrationvE3__c_1 Please load filament first.
+000055ec _ZZL18lcd_v2_calibrationvE3__c Select filament:
+000055ff MSG_FILAMENT Filament
+0000560a _ZZL18lcd_v2_calibrationvE3__c_0 Cancel
+00005613 _ZZ10lcd_wizardvE3__c Running Wizard will delete current calibration results and start from the beginning. Continue?
+00005674 MSG_WIZARD_HEATING Preheating nozzle. Please wait.
+00005696 MSG_LOADING_FILAMENT Loading filament
+000056a9 _ZZL15lcd_wizard_loadvE3__c_0 Please insert filament into the extruder, then press the knob to load it.
+000056f5 _ZZL15lcd_wizard_loadvE3__c Please insert filament into the first tube of the MMU, then press the knob to load it.
+0000574e _ZZL22wizard_lay1cal_messagebE3__c_2 The printer will start printing a zig-zag line. Rotate the knob until you reach the optimal height. Check the pictures in the handbook (Calibration chapter).
+000057ee _ZZL22wizard_lay1cal_messagebE3__c_1 Select temperature which matches your material.
+00005820 _ZZL22wizard_lay1cal_messagebE3__c_0 Choose a filament for the First Layer Calibration and select it in the on-screen menu.
+00005879 _ZZL22wizard_lay1cal_messagebE3__c Now I will calibrate distance between tip of the nozzle and heatbed surface.
+000058c8 MSG_COOLDOWN Cooldown
+000058d3 MSG_PREHEAT_NOZZLE Preheat the nozzle!
+000058e9 MSG_ERROR ERROR:
+000058f2 MSG_FILAMENT_CLEAN Filament extruding & with correct color?
+0000591d _ZZL25lcd_menu_AutoLoadFilamentvE3__c Autoloading filament is active, just press the knob and insert filament...
+0000596a _ZZ19lcd_menu_statisticsvE3__c_0 Filament used
+0000597a _ZZ19lcd_menu_statisticsvE3__c_1 Print time
+00005987 _ZZ19lcd_menu_statisticsvE3__c_3 Total filament
+00005998 _ZZ19lcd_menu_statisticsvE3__c_4 Total print time
+000059ab _ZZL18lcd_menu_xyz_y_minvE3__c_0 Y distance from min
+000059c1 _ZZL18lcd_menu_xyz_y_minvE3__c_1 Left
+000059c8 _ZZL18lcd_menu_xyz_y_minvE3__c_2 Right
+000059d0 _ZZL17lcd_menu_xyz_skewvE3__c_0 Measured skew
+000059e0 _ZZL17lcd_menu_xyz_skewvE3__c_1 Slight skew:
+000059ef _ZZL17lcd_menu_xyz_skewvE3__c_2 Severe skew:
+000059fe _ZZL19lcd_menu_xyz_offsetvE3__c [0;0] point offset
+00005a13 _ZZL14lcd_babystep_zvE3__c Adjusting Z:
+00005a22 _ZZL17handleSafetyTimervE3__c Heating disabled by safety timer.
+\
